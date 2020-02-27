@@ -1,0 +1,104 @@
+
+body {
+width: 100vw;
+height: 100vh;
+margin:0px;
+position: absolute;
+display:flex;
+flex-flow: column nowrap;
+align-items: center;
+}
+
+form{
+    top:80px;
+    font-family: "Snap ITC",sans-serif;
+    margin:0px;
+    background-color: white;
+    position:absolute;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content: center;
+
+    }
+    
+h1{  position: absolute;
+    text-align: center;
+    color:white;
+    font-family: 'Knewave', cursive;
+   background-color:black;
+   width:300px;
+}
+
+
+
+.oldtext{
+
+    font-size:20px;
+    font-style: bold;
+    font-family: 'Knewave', cursive;
+    width:300px;
+    height:20px;
+    text-align: right;
+  margin:0px;
+
+}
+.textview{
+    direction:ltr;
+    font-size:40px;
+    font-style: bold;
+    font-family: 'Macondo', cursive;
+    width:300px;
+    height:50px;
+    text-align: center;
+    margin:0px;
+}
+
+.buttons{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/swizel012/css-images/master/26576728-numbers-background.jpg);
+  width:304px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  grid-gap:15px;
+  background-color:black;
+  text-align: center;
+  margin:0px;
+
+   
+}
+
+
+
+.numbers{
+    font-size:10px;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    background-color:darkgray;
+    border-radius: 10mm;
+    height:30px;
+    width:30px;
+    text-align: center;
+
+}
+.operators{
+    height:30px;
+    width:30px;
+    font-size:10px;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    border-radius: 10mm;
+    text-align: center;
+    background-color:ghostwhite;
+
+}
+.clear{  text-align: center;
+    font-size:10px;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    border-radius: 10mm;
+    height:30px;
+    width:30px;
+    background-color:grey;
+    text-align: center;
+}

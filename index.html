@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calculator.css">
+   
+  </head>
+ 
+  <body>
+       <h1>CALCULATOR</h1>
+    <form name="form" >
+       <div> 
+   
+      
+      
+      <div>
+         <input type="text" name="textview" class="textview"  readonly="readonly">
+      </div>
+      <div>
+        <input type="text" name="oldtext" class="oldtext"  readonly="readonly">
+      </div>
+</div>
+        
+      <div class="buttons">
+         <div>
+             <input type="button" class="clear"  value="AC" onclick="clearAll()">
+                    
+         </div>
+         <div>
+             <input type="button"  class="clear"  value="CE" onclick="back()">
+         </div>
+         <div>
+             <input type="button"  class="clear"  value="." onclick="insert(value)">
+         </div>  
+         <div>
+             <input type="button"  class="operators"  value="/" onclick="insert(value)">
+         </div>                      
+         <div>
+             <input type="button"  class="numbers"  value="7" onclick="insert(value)">
+         </div>            
+         <div>
+            <input type="button"  class="numbers"  value="8" onclick="insert(value)">
+         </div>
+         <div>
+             <input type="button"  class="numbers"  value="9" onclick="insert(value)">
+         </div>
+         <div>
+             <input type="button"  class="operators"  value="*" onclick="insert(value)">
+         </div>         
+        
+         <div>
+             <input type="button"  class="numbers"  value="4" onclick="insert(value)">
+         </div>           
+         <div>
+             <input type="button"  class="numbers"  value="5" onclick="insert(value)">
+         </div>
+         <div>
+             <input type="button"  class="numbers"  value="6" onclick="insert(value)">
+         </div>
+         <div>
+              <input type="button"  class="operators"  value="-" onclick="insert(value)">
+         </div>         
+        
+         <div>
+            <input type="button"  class="numbers"  value="1" onclick="insert(value)">
+         </div>           
+         <div>
+             <input type="button"  class="numbers"  value="2" onclick="insert(value)">
+         </div>
+          <div>
+             <input type="button"  class="numbers"  value="3" onclick="insert(value)">
+         </div>
+         <div>
+            <input type="button"  class="operators"  value="+" id="+" onclick="insert(value)">
+         </div>         
+        
+        
+         <div>
+             <input type="button"  class="operators"  value="(" onclick="insert(value)" >
+         </div>
+         <div>
+            <input type="button"  class="operators"  value="0"  onclick="insert(value)">
+         </div>                          
+         <div>
+             <input type="button"  class="operators"  value=")" onclick="insert(value)">
+         </div>
+         <div>
+             <input type="button"  class="operators"  value="=" onclick="equal()">
+         </div>              
+     </div> 
+         
+
+    
+     <script src="calculator.js"></script>
+     </form>
+    
+  </body>
+
+</html>
